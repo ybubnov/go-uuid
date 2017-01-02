@@ -1,5 +1,7 @@
 # go-uuid - A wrapper for Linux kernel UUID v4 generator.
 
+[![Build Status][BuildStatus]](https://travis-ci.org/ybubnov/go-uuid)
+
 This UUID library is an yet another attempt to reimplement the wheel, but
 instead of outstanding algorithm it wraps the Linux kernel implementation
 of UUID v4 generator.
@@ -63,3 +65,5 @@ func main() {
 
 The UUID library is distributed under MIT license, therefore you are free to do
 with code whatever you want. See the [LICENSE](LICENSE) file for full license text.
+
+[BuildStatus]:   https://travis-ci.org/ybubnov/go-uuid.svg?branch=master
